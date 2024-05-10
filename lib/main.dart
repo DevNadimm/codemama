@@ -148,3 +148,48 @@
 
 //==============================================================================
 
+//problem 10
+
+// import 'dart:io';
+//
+// void main() {
+//
+//   var input = stdin.readLineSync()!;
+//   var inputSplit = input.split(' ');
+//
+//   int wheelsNum = int.parse(inputSplit[0]);
+//   int bodiesNum = int.parse(inputSplit[1]);
+//   int figuresNum = int.parse(inputSplit[2]);
+//
+//   int carCreateByWheel = wheelsNum~/4;
+//   int carCreateByBodies = bodiesNum~/1;
+//   int carCreateByFigures = figuresNum~/2;
+//
+//
+//   if(carCreateByWheel < carCreateByBodies && carCreateByWheel < carCreateByFigures){
+//     print(carCreateByWheel);
+//   } else if (carCreateByBodies < carCreateByWheel && carCreateByBodies < carCreateByFigures){
+//     print(carCreateByBodies);
+//   } else{
+//     print(carCreateByFigures);
+//   }
+// }
+
+//==============================================================================
+
+//problem 11
+//
+// import 'dart:io';
+//
+// void main() {
+//
+//   var input = stdin.readLineSync()!;
+//   var inputSplit = input.split(' ');
+//
+//   int originalPrice = int.parse(inputSplit[0]);
+//   int discount = int.parse(inputSplit[1]);
+//
+//   String sellPrice = (originalPrice - ((discount/100)* originalPrice)).toStringAsFixed(2);
+//
+//   print("Price: $sellPrice");
+// }
